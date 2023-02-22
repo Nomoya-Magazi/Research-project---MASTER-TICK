@@ -1,0 +1,21 @@
+# Enables the user to login/sign_in
+
+const request = require('request');
+
+const options = {
+  method: 'POST',
+  url: 'https://mastertick.com/users/login',
+  headers: {
+    'content-type': 'application/json',
+    'accept': 'application/json',
+    useQueryString: true
+  },
+  body: {email: 'narutouzomaki@gmail.com', password: 'pobysage@360'},
+  json: true
+};
+
+request(options, function (error, response, body) {
+	if (error) throw new Error(error);
+
+	console.log(body);
+});
