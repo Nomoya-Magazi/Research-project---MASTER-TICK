@@ -1,0 +1,27 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "description": "call transport",
+      "time": "07:00 am"
+    },
+    {
+      "id": 2,
+      "description": "Meeting with CFO",
+      "time": "10:OO am"
+    },
+    {
+      "id": 3,
+      "description": "lunch with partners",
+      "time": "15:00 pm"
+    }
+  ],
+  "users": [
+    {
+      "f_name": "Naruto",
+      "l_name": "uzumaki",
+      "email": "naruto.uzumaki@gmail.com",
+      "id": 1
+    }
+  ]
+}
