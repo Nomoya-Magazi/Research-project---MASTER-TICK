@@ -37,3 +37,5 @@ if not already installed, install tools needed
 -pip
 -pytest(with pip) to test the flask application
 -Flask-CORS
+-json server
+-nodejs
