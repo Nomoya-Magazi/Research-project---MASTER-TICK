@@ -24,6 +24,11 @@ Languages: python , Javascript
 Framework: Javascript
 Platform: Trello
 
+# Links
+https://master-tick-ilv0.onrender.com/ (link to deployed site)
+https://www.figma.com/proto/qc3ux5b0kGgK1xz5bww2RW/ALX-ToDo-list?page-id=0%3A1&node-id=1%3A2&viewport=580%2C394%2C0.64&scaling=scale-down
+(Link to prototype)
+
 # Infrustructure
 we will be using a merging/brancing process, creating one repository ,which will be cloned by other members.
 Each member will work  on their own branch , git pull, add,commit and push to the master branch without causing any conflict.
