@@ -20,7 +20,7 @@ For this website to be successful we will need certain tools and softwares.
 
 # Technologies
 Libraries: python, flask, CROS and Json
-Languages: python , Javascript
+Languages: python , Javascript json-server
 Framework: Javascript
 Platform: Trello
 
