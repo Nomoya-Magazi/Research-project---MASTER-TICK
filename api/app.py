@@ -1,5 +1,6 @@
 from flask import Flask, jsonify
 from flask_mysql_connector import MySQL
+from flask_mail import Mail, Message
 
 app = Flask(__name__)
 
@@ -18,6 +19,23 @@ def get_users():
     cur.execute('''SELECT * FROM users''')
     results = cur.fetchall()
     return jsonify(results)
+
+# My SMTP configuration
+app.config['MAIL_SERVER'] = 'smtp.example.com'
+app.config['MAIL_PORT'] = 465
+app.config['MAIL_USE_SSL'] = True
+app.config['MAIL_USERNAME'] = 'your-email@example.com'
+app.config['MAIL_PASSWORD'] = 'your-email-password'
+
+#create a Mail object and pass it to my Flask to instance it
+mail = Mail(app)
+
+@app.route('/send_email')
+def send_email():
+    msg = Message('Hello', sender='your-email@example.com', recipients=['recipient@example.com'])
+    msg.body = "This is a test email sent from Flask using SMTP"
+    mail.send(msg)
+    return "Email sent"
 
 if __name__ == '__main__':
     app.run(debug=True)
