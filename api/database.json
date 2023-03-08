@@ -11,20 +11,28 @@
   "tasks": [
     {
       "id": 1,
-      "description": "call transport",
-      "time": "07:00 am"
+      "title": "Call transport",
+      "description": "Call the transport company to arrange pickup",
+      "deadline": "2023-03-10T07:00:00.000Z",
+      "completed": false,
+      "user_id": 1
     },
     {
       "id": 2,
-      "description": "Meeting with CFO",
-      "time": "10:OO am"
+      "title": "Meeting with CFO",
+      "description": "Discuss financial report with the CFO",
+      "deadline": "2023-03-10T10:00:00.000Z",
+      "completed": false,
+      "user_id": 1
     },
     {
       "id": 3,
-      "description": "lunch with partners",
-      "time": "15:00 pm"
+      "title": "Lunch with partners",
+      "description": "Have lunch with the company's partners",
+      "deadline": "2023-03-10T15:00:00.000Z",
+      "completed": false,
+      "user_id": 1
     }
   ],
   "auth": {}
 }
-
