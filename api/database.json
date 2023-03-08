@@ -1,54 +1,63 @@
 {
-"users": [
-{
-"f_name": "Naruto",
-"l_name": "uzumaki",
-"email": "naruto.uzumaki@gmail.com",
-"password": "",
-"id": 1,
-"notification_settings": {
-"method": "email",
-"criteria": {
-"priority": ["high", "medium"],
-"deadline": {
-"type": "relative",
-"value": "1 hour"
-}
-}
-}
-}
-],
-"tasks": [
-{
-"id": 1,
-"title": "Call transport",
-"description": "Call the transport company to arrange pickup",
-"deadline": "2023-03-10T07:00:00.000Z",
-"completed": false,
-"user_id": 1,
-"priority": "medium",
-"notification_sent": false
-},
-{
-"id": 2,
-"title": "Meeting with CFO",
-"description": "Discuss financial report with the CFO",
-"deadline": "2023-03-10T10:00:00.000Z",
-"completed": false,
-"user_id": 1,
-"priority": "high",
-"notification_sent": false
-},
-{
-"id": 3,
-"title": "Lunch with partners",
-"description": "Have lunch with the company's partners",
-"deadline": "2023-03-10T15:00:00.000Z",
-"completed": false,
-"user_id": 1,
-"priority": "high",
-"notification_sent": false
-}
-],
-"auth": {}
+  "users": [
+    {
+      "f_name": "Naruto",
+      "l_name": "uzumaki",
+      "email": "naruto.uzumaki@gmail.com",
+      "password": "",
+      "id": 1,
+      "notification_settings": {
+        "method": "email",
+        "criteria": {
+          "priority": [
+            "high",
+            "medium"
+          ],
+          "deadline": {
+            "type": "relative",
+            "value": "1 hour"
+          }
+        }
+      }
+    },
+    {
+      "id": 2
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Call transport",
+      "description": "Call the transport company to arrange pickup",
+      "deadline": "2023-03-10T07:00:00.000Z",
+      "completed": false,
+      "user_id": 1,
+      "priority": "medium",
+      "notification_sent": false
+    },
+    {
+      "id": 2,
+      "title": "Meeting with CFO",
+      "description": "Discuss financial report with the CFO",
+      "deadline": "2023-03-10T10:00:00.000Z",
+      "completed": false,
+      "user_id": 1,
+      "priority": "high",
+      "notification_sent": false
+    },
+    {
+      "id": 3,
+      "title": "Lunch with partners",
+      "description": "Have lunch with the company's partners",
+      "deadline": "2023-03-10T15:00:00.000Z",
+      "completed": false,
+      "user_id": 1,
+      "priority": "high",
+      "notification_sent": false
+    },
+    {
+      "id": 4
+    }
+  ],
+  "auth": {}
 }
