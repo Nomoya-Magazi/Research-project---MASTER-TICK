@@ -16,7 +16,8 @@
       "deadline": "2023-03-10T07:00:00.000Z",
       "completed": false,
       "user_id": 1,
-      "priority": "high"
+      "priority": "high",
+      "notification_sent": false
     },
     {
       "id": 2,
@@ -25,7 +26,8 @@
       "deadline": "2023-03-10T10:00:00.000Z",
       "completed": false,
       "user_id": 1,
-      "priority": "medium"
+      "priority": "medium",
+      "notification_sent": false
     },
     {
       "id": 3,
@@ -34,7 +36,8 @@
       "deadline": "2023-03-10T15:00:00.000Z",
       "completed": false,
       "user_id": 1,
-      "priority": "low"
+      "priority": "low",
+      "notification_sent": false
     }
   ],
   "auth": {}
