@@ -4,10 +4,6 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 
 app = Flask(__name__)
-app.logger.setLevel(logging.INFO)
-handler = logging.FileHandler('app.log')
-handler.setFormatter(logging.Formatter('%(asctime)s %(levelname)s: %(message)s'))
-app.logger.addHandler(handler)
 CORS(app, resources={r"/*": {"origins": "http://localhost:8080"}})
 
 JSON_SERVER_URL = "http://localhost:3000"
